@@ -32,6 +32,7 @@ public class CustomJdbcDaoImpl extends JdbcDaoImpl implements IChangePassword {
 	private SaltSource saltSource;
 
 	private KleosUserDetailsManager udm;
+	
 
 	public void changePassword(String username, String lawfirm, String password) {
 
