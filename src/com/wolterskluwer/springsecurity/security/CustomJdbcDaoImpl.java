@@ -31,8 +31,6 @@ public class CustomJdbcDaoImpl extends JdbcDaoImpl implements IChangePassword {
 	@Autowired
 	private SaltSource saltSource;
 	
-	private String provaGit;
-
 	private KleosUserDetailsManager udm;
 	
 
